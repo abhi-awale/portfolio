@@ -219,9 +219,7 @@
   display: block;
   border-radius: 50%;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  animation: heartbeat 2s ease-in-out infinite;
 }
 
 .step-img-box::before {
@@ -240,6 +238,14 @@
   padding-bottom: 45%;
   background-color: #fae5d3;
   z-index: -1;
+}
+
+@keyframes heartbeat {
+  0% { transform: scale(1); }
+  30% { transform: scale(1.2); }
+  50% { transform: scale(1); }
+  70% { transform: scale(1.2); }
+  100% { transform: scale(1); }
 }
 
 .step-img {
