@@ -52,10 +52,6 @@
   .hero {
     gap: 4.8rem;
   }
-
-  .testimonials-container {
-    padding: 9.6rem 3.2rem;
-  }
 }
 
 /**************************/
@@ -91,12 +87,12 @@
     font-size: 7.4rem;
   }
 
-  .section-testimonials {
-    grid-template-columns: 1fr;
-  }
-
   .gallery {
     grid-template-columns: repeat(6, 1fr);
+  }
+
+  .scroll-container {
+    justify-content: left;
   }
 
   .cta {
@@ -211,6 +207,10 @@
     grid-column: span 2;
     margin-bottom: 3.2rem;
   }
+
+  .scroll-container {
+    justify-content: left;
+  }
 }
 
 /**************************/
@@ -271,13 +271,13 @@
     z-index : 1;
   }
 
-  .testimonials {
-    grid-template-columns: 1fr;
-  }
-
   .gallery {
     grid-template-columns: repeat(4, 1fr);
     gap: 1.2rem;
+  }
+
+  .scroll-container {
+    justify-content: left;
   }
 
   .cta {
