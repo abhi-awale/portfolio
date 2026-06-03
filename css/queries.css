@@ -259,7 +259,7 @@
   }
 
   .step-img-box {
-    transform: translateY(2.4rem);
+    display: none;
   }
 
   .first-company::before, .third-company::before,

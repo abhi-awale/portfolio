@@ -1,0 +1,30 @@
+
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Left A -->
+  <path d="M70 230 L120 70 L170 230"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="12"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <line x1="95" y1="170" x2="145" y2="170"
+        stroke="currentColor"
+        stroke-width="12"
+        stroke-linecap="round"/>
+
+  <!-- Right A -->
+  <path d="M130 230 L180 70 L230 230"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="12"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <line x1="155" y1="170" x2="205" y2="170"
+        stroke="currentColor"
+        stroke-width="12"
+        stroke-linecap="round"/>
+
+</svg>
